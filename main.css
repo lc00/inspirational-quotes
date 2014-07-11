@@ -48,9 +48,14 @@ ul{
 	margin: 4% 0 0 5%;
 }
 
-.rating-button, .edit-button{
+.rating-button, .delete-button{
 	display: block;
 	margin-bottom: 12%;
+
+}
+
+.edit-quote{
+	width: 40%;
 }
 
 form{
