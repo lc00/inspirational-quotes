@@ -1,6 +1,4 @@
-body{
-	position: relative;
-}
+
 
 #container{
 	margin: 0 auto;
@@ -46,6 +44,7 @@ ul{
 
 .buttons{
 	display: inline-block;
+	text-align: right;
 	margin: 4% 0 0 5%;
 }
 
@@ -55,16 +54,12 @@ ul{
 }
 
 form{
-	margin: 0 auto;
+	margin: 100px auto;
 	width: 25%;
 	height: 100px;
 	padding: 5%;
 	border: 1px solid grey;
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	display: none;
+
 }
 .input-group{
 	margin-bottom: 1%;

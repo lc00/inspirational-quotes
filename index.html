@@ -9,29 +9,17 @@
 <body>
 	<div id="container">
 		<div id="header">
-			<button type="button" id="addQuoteButton">Add Quote</button>
 			<button type="button" id="randomQuoteButton">Random Quote</button>
+			
+			<button type="button" id="undoDeletedQuoteButton">Undo Deleted Quote</button>
 		</div>
-		<ul>
+		<ul class="quoteDisplay">
 			<li class="quoteBlock">
 				<div class="rating-display">
 
 				</div>
 				<div class="quoteNAuthor">
-					<p class="quote">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
-					<p class="author">author</p>
-				</div>
-				<div class="buttons">
-					<button type="button" class="rating-button">Rate It</button>
-					<button type="button" class="edit-button">Edit</button>
-				</div>
-			</li>
-			<li class="quoteBlock">
-				<div class="rating-display">
-				
-				</div>
-				<div class="quoteNAuthor">
-					<p class="quote">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+					<p class="quote editable">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
 					<p class="author">author</p>
 				</div>
 				<div class="buttons">
@@ -53,22 +41,22 @@
 				</div>
 			</li>
 
-			</li>
+			
 		</ul>
 	</div>
 	
-		<form id="addQuote">
-			<div class="input-group">
-				<input name="title" type="text" placeholder="Your quote...">
-			</div>
-			<div class="input-group">
-				<input name="author" type="text" placeholder="Your name">
-			</div>
-			<div class="input-group">
-				<input type="submit" value="Add Quote">
-			</div>
+	<form id="addQuote">
+		<div class="input-group">
+			<input name="quote" type="text" >
+		</div>
+		<div class="input-group">
+			<input name="author" type="text" >
+		</div>
+		<div class="input-group">
+			<input type="submit" value="Add Quote">
+		</div>
 
-		</form>
+	</form>
 
 	
 
@@ -80,6 +68,7 @@
 
 	
   <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+ 
   <script src="main.js"></script>
 
 </body>
